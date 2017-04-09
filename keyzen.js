@@ -104,7 +104,7 @@ function keyHandler(e) {
     }
     data.word_index += 1;
     if (data.word_index >= data.word.length) {
-        setTimeout(next_word, 400);
+        setTimeout(next_word, 50);
     }
 
     update_stats();
